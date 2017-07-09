@@ -1,7 +1,7 @@
 import React from "react";
 import ListContacts from "./ListContacts";
-import CreateContact from "./CreateContact"
-import * as ContactsAPI from "./utils/ContactsAPI"
+import CreateContact from "./CreateContact";
+import * as ContactsAPI from "./utils/ContactsAPI";
 
 class App extends React.Component {
     state = {
